@@ -1,0 +1,89 @@
+name: safestreets
+description: SafeStreets project sweg 2019/2020
+author: Sandro Maglione <lass.maglio@gmail.com>, Andrea Cappelletti <andreacappelletti97@gmail.com>
+
+version: 1.0.2+3
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Service locator
+  get_it: ^3.0.3
+
+  # Bloc for state management
+  flutter_bloc: ^2.1.1
+
+  # Value equality
+  equatable: ^1.0.1
+
+  # Functional programming thingies
+  dartz: ^0.8.7
+
+  #login slide show
+  intro_slider: ^2.2.8
+
+  # Remote API
+  data_connection_checker: ^0.3.4
+  http: ^0.12.0+2
+
+  # Local cache
+  shared_preferences: ^0.5.4+3
+
+  # json serialization
+  json_annotation: ^3.0.0
+  built_value: ^7.0.0
+  built_collection: ^4.3.0
+
+  # bloc support enum
+  super_enum: ^0.2.0
+
+  # google sign-in
+  google_sign_in: ^4.1.1
+
+  # firebase
+  firebase_core: ^0.4.3+1
+  firebase_auth: ^0.15.3
+  cloud_firestore: ^0.13.0+1
+  firebase_messaging: ^6.0.9
+  firebase_ml_vision: ^0.9.3+5
+  firebase_storage: ^3.1.0
+
+  # camera and image
+  image_picker: ^0.6.2+3
+
+  # GPS location
+  geolocator: ^5.1.5
+
+  # auto router
+  auto_route: ^0.2.0+1
+
+  # settings UI
+  settings_ui: ^0.2.0
+
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  test: any
+  mockito: ^4.1.1
+  # json serialization
+  build_runner: ^1.7.2
+  json_serializable: ^3.2.3
+  built_value_generator: ^7.0.0
+  # bloc support enum generator
+  super_enum_generator: ^0.2.0+1
+  # auto router
+  auto_route_generator: ^0.2.0
+  #flutter icon
+  flutter_launcher_icons: ^0.7.4
+
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  image_path: "assets/icon/ic_launcher.png"
+  android: true 
+  ios: true
